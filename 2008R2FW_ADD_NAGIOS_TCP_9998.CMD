@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name="Nagios_NRPE" dir=in action=allow protocol=TCP localport=9998
